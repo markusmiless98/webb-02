@@ -1,0 +1,19 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "ett projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusmiless98/webb-02.git"
+  },
+  "author": "Mikael Tägt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markusmiless98/webb-02/issues"
+  },
+  "homepage": "https://github.com/markusmiless98/webb-02#readme"
+}
