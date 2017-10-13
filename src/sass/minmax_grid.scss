@@ -1,0 +1,20 @@
+$bordercolor: rgb(0,95,107);
+$textcolor: #fff;
+
+@import 'boxes';
+@import 'reset';
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 300px;
+    grid-auto-rows: minmax(120px, auto);
+    grid-gap: 20px;
+    div{
+        border: 1px solid $bordercolor;
+        border-radius:3px;
+        padding: 0.2em;
+        color: $textcolor;
+        font-size:120%;
+    }
+}

@@ -1,0 +1,12 @@
+$bgcolor: blue;
+$normalcolor: green;
+
+span{
+    color: $bgcolor;
+}
+p{
+    background-color: $bgcolor;
+    span{
+        color: $normalcolor;
+    }
+}

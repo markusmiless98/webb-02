@@ -1,0 +1,7 @@
+span {
+  color: blue; }
+
+p {
+  background-color: blue; }
+  p span {
+    color: green; }
